@@ -32,7 +32,7 @@ export type Database = {
 // 3. Find your Project URL and anon public key.
 // 4. Replace the placeholder values below.
 // For production, use environment variables to store these secrets.
-const supabaseUrl = 'https://mhhanvzvqfdhahdrzbpz.supabase.co';
+const supabaseUrl = 'https://yszpulimduvstxpwrand.supabase.co';
 const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1oaGFudnp2cWZkaGFoZHJ6YnB6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE4MzA3OTQsImV4cCI6MjA2NzQwNjc5NH0.evtzisJ4FJzXUIHu3pVT9asD5MEmpk1wiWyQagDQSj0';
 
 let supabaseInstance: SupabaseClient<Database> | null = null;
